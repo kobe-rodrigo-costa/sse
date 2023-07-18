@@ -1,0 +1,31 @@
+{
+  "name": "sse-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "nodemon -L --ignore",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.0",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "redis": "^4.6.7",
+    "ts-node": "^10.9.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.1",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.1",
+    "nodemon": "^2.0.22",
+    "typescript": "^5.1.6"
+  }
+}
